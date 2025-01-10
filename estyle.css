@@ -1,0 +1,18 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: 0.5px solid black;
+    padding: 10px;
+    
+}
+
+/* access through css class */
+.dark{
+    background-color: black;
+    color: aliceblue;
+}
+.white{
+    background-color: aliceblue;
+    color: black;
+}

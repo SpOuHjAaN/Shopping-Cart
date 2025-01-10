@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><i class="fa-brands fa-html5"></i> Logo</div>
+        <nav>
+            <a ><i class="fa-solid fa-house-chimney-user"></i> Home</a>
+            <a ><i class="fa-solid fa-shop-slash"></i> Shop</a>
+            <a ><i class="fa-regular fa-address-book"></i> Contact</a>
+            <a  class="cart-icon"><i class="fa-solid fa-cart-flatbed-suitcase"></i> Cart</a>
+        </nav>
+    </header>
+    <div class="frame-1">
+        <img class="shop" src="shop.jpg" />
+        <div class="shopping-cart">SHOPPING CART</div>
+        <div class="rectangle-2"></div>
+      </div>
+      
+    <main>
+        <div class="cart-content">
+            <div class="cart-items"></div>
+            <div class="cart-totals">
+                <div class="subtotal">
+                    <span>Subtotal:</span>
+                    <span class="subtotal-amount">₹0.00</span>
+                </div>
+                <div class="total">
+                    <span>Total:</span>
+                    <span class="total-amount">₹0.00</span>
+                </div>
+                <button class="checkout-btn">Check Out</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="service-icons">
+            <span>High Quality</span>
+            <span>Warranty Protection</span>
+            <span>Free Shipping</span>
+        </div>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>

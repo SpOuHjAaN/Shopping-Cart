@@ -1,0 +1,114 @@
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+.frame-1 {
+  background: #ffffff;
+  height: 756px;
+  position: relative;
+  overflow: hidden;
+}
+.shop {
+  border-radius: 116px;
+  width: 1320px;
+  height: 515px;
+  position: absolute;
+  left: 60px;
+  top: 185px;
+  object-fit: cover;
+}
+.shopping-cart {
+  color: #000000;
+  text-align: left;
+  font-family: "HoltwoodOneSc-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: 580px;
+  top: 79px;
+  width: 459px;
+  height: 65px;
+}
+.rectangle-2 {
+  background: #98cbcc;
+  width: 2px;
+  height: 1px;
+  position: absolute;
+  left: 371px;
+  top: 127px;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #090909;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.cart-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+}
+
+.cart-items {
+    flex: 2;
+    margin-right: 2rem;
+}
+
+.cart-totals {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.cart-totals .subtotal,
+.cart-totals .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 25rem;
+}
+
+footer .service-icons span {
+    margin: 0 1rem;
+}
